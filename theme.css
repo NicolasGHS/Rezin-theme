@@ -130,7 +130,6 @@ a,
 .inline-title {
     color: var(--text-title-h1);
     font-family: var(--font-family-editor);
-    text-shadow: 0 0 20px #ff5555;
 }
 
 .cm-s-obsidian .cm-header,
