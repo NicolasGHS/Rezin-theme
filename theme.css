@@ -70,11 +70,9 @@
     /* background-color: #af3943; */
     color: #af3943;
     font-weight: bold;
-    font-size:medium;
     background-color: hsl(180, 20%, 15%);
-    border-style:outset;
-    border-radius: 12px;
-    border-color: #4baaa8;
+    border: 1px solid #4baaa8;
+    border-radius: 8px;
 }
 
 /**************/
