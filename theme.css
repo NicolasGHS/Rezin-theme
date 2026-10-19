@@ -7,7 +7,7 @@
     --text-a: #bea63a;
     --text-italic: #b37ceb;
     --font-family-editor: Avenir, Avenir Next, sans-serif;
-    --vim-cursor: #fcf601; 
+    --vim-cursor: #af3943; 
 
 
     --text-title-h1: #af3943;
@@ -340,13 +340,15 @@ a.view-action {
 /* Tags */
 /********/
 
-div .cm-scroller {
-    border-style: solid;
-    border-radius: 20px;
-    border-width: 1px;
-    margin: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    background-color: #13131E;
+
+
+/**************/
+/* Vim Cursor */
+/**************/
+
+.cm-editor .cm-cursorLayer .cm-fat-cursor {
+    --interactive-accent: var(--vim-cursor);
+    --text-on-accent: var(--background-primary);
+    background-color: var(--vim-cursor) !important;
+    color: var(--background-primary) !important;
 }
