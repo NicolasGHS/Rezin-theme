@@ -314,7 +314,7 @@ tr:nth-child(even) {
 /* Line numbers */
 /****************/
 .cm-gutterElement {
-    color: var(--text-a);
+    color: var(--text-normal);
 }
 
 .side-dock {
