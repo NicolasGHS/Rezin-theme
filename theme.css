@@ -11,6 +11,7 @@
     --link-unresolved-color: var(--text-title-h3);
     --link-unresolved-decoration-color: var(--text-title-h3);
     --divider-color-hover: #af3943;
+    --text-selection: rgba(175, 57, 67, 0.35);
 
 
     --text-title-h1: #af3943;
