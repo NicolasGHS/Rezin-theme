@@ -10,6 +10,7 @@
     --vim-cursor: #af3943; 
     --link-unresolved-color: var(--text-title-h3);
     --link-unresolved-decoration-color: var(--text-title-h3);
+    --divider-color-hover: #af3943;
 
 
     --text-title-h1: #af3943;
@@ -332,6 +333,11 @@ tr:nth-child(even) {
 .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
     width: 1px !important; 
     color: #0d9668;
+}
+
+.workspace-leaf-resize-handle:hover,
+.workspace-leaf-resize-handle:active {
+    background-color: #af3943 !important;
 }
 
 /***********/
