@@ -8,6 +8,8 @@
     --text-italic: #b37ceb;
     --font-family-editor: Avenir, Avenir Next, sans-serif;
     --vim-cursor: #af3943; 
+    --link-unresolved-color: var(--text-title-h3);
+    --link-unresolved-decoration-color: var(--text-title-h3);
 
 
     --text-title-h1: #af3943;
@@ -121,6 +123,14 @@ a,
 .cm-url {
     color: var(--text-a) !important;
     text-decoration: none;
+}
+
+.internal-link.is-unresolved,
+.is-unresolved .cm-hmd-internal-link,
+.cm-hmd-internal-link.is-unresolved,
+.is-unresolved a {
+    color: var(--text-title-h3) !important;
+    text-decoration-color: var(--text-title-h3) !important;
 }
 
 /************/
